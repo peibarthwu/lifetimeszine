@@ -1,0 +1,45 @@
+@tailwind base {
+  html {
+    @apply font-serif;
+  }
+}
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overscroll-behavior: none;
+  background-color: white;
+  color: black;
+}
+
+.three-d-container {
+  overflow: auto;
+  perspective: 500px;
+  perspective-origin: center center;
+}
+
+.size-fix {
+  transform-style: preserve-3d;
+  width: 100%;
+  overflow: hidden;
+  /* display: flex;
+  align-items: center; */
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 {
+  color: blue;
+}
+
+* {
+  box-sizing: border-box;
+}
