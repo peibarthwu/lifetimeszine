@@ -19,7 +19,7 @@ module.exports = {
         isaac: "#009dff",
       },
       fontFamily: {
-        sans: ['"Helvetica"', "sans-serif"],
+        sans: ["Times New Roman", "serif"],
       },
       spacing: {
         13: "3.25rem",
